@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    /*src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');*/
+    src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/1YwB1sO8YE1Lyjf12WNiUA.html) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+html,body{ _font-family: SolaimanLipi; font-size: 18px; font-family: kalpurushregular; background: #eceff4; text-align: center; width: 100%; _height: 100%}
+
+.page-table{ display: table; width: 100%; height: 100%; margin: auto}
+.page-table-cell{ display: table-cell; vertical-align: middle; text-align: center}
+.login{ max-width: 580px; margin: 20px auto;}
+
+.login-information{ background: url(../img/login-bg.png) no-repeat; background-size:cover; height: 100%; width: 230px; padding: 1rem; border-radius: 5px 0 0 5px}
+.login-information>div{ color: #f5f5f5; font-size: 1.2rem; margin: 0.2rem 0 1.5rem 0}
+.login-information>ul{ list-style: circle; margin: 0 0 0 10px; padding: 0}
+.login-information>ul>li{ color: #fff; text-align: left; font-size: 0.85rem; margin-bottom: 10px; font-weight: normal; text-shadow: none}
+
+.login-information .contact{ font-size: 1rem; margin-top: 2rem; color: #343434}
+
+.login-form{ background: #fff; border: 1px solid #d8e2e7; border-radius: 5px; margin: 10px; box-shadow: 0px 1px 5px #999}
+
+.logo{ margin: -1rem -1rem 0 -1rem; padding: 1rem; min-height: 70px}
+.logo img{ }
+
+/*[placeholder], input[placeholder]{ color: #F55f55}*/
+
+.input-group-text i{ font-size: 1.5rem}
+
+.login-input{ padding: 1.5rem 0; color: #343434}
+.login-input input{ font-size: 0.95rem !important; width: 100%; padding: .3rem .7rem .1rem}
+
+.login-but{ background: #5b4a9a; width: 100%; border-radius: 3px; border: 1px solid #4a3a85; color: #FFF; padding: 0.2rem 0.8rem; font-size: 1rem !important; cursor: pointer}
+
+.registration{ margin-right: 10px; color: #0082c6; font-size: 0.875rem}
+.registration:hover{ color: #0082c6}
+.forget-pincode{ color: #5b4a9a; font-size: 0.875rem; margin-left: 10px}
+.forget-pincode:hover{ color: #5b4a9a}
+
+.en-font{ font-family: 'Proxima Nova' !important;}
+.toggle-pincode{ position: absolute; top: 5px; right: 10px; opacity: 0.3; cursor: pointer}
+.toggle-pincode:hover{ opacity: 1}

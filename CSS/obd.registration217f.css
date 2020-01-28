@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    /*src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');*/
+    src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/1YwB1sO8YE1Lyjf12WNiUA.html) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+html,body{ font-family: kalpurushregular; font-size: 18px; background: #eceff4; text-align: center; width: 100%; height: 100%}
+.en-font{ font-family: Lato}
+.fb-label{ font-size: 1rem; margin-top: 5px; color: #343434}
+span.required{ color: #cd0000; margin: 0 3px}
+
+.form-group{ margin-bottom: 7px !important;}
+
+.inline{ display: inline-block}
+
+.page-table{ display: table; width: 100%; height: 100%; margin: auto}
+.page-table-cell{ display: table-cell; vertical-align: middle; text-align: center}
+.registration{ max-width: 620px; margin: 30px auto;}
+
+.registration-form{ background: #fff; border: 1px solid #d8e2e7; border-radius: 5px; margin: 10px; box-shadow: 0px 1px 5px #999}
+
+.logo{ padding: 1rem; border-bottom: 1px solid #d8e2e7; overflow: hidden}
+.logo img{ }
+
+.site-title{ margin: 0px 0px 0px 1rem; text-align: left}
+.site-title h1{ color: #663390; font-size: 1.5rem; font-weight: bold; margin-bottom: 0.3rem !important}
+.site-title h3{ color: #666; font-size: 0.9rem; margin-bottom: 0px !important}
+
+.form-group>.radio{ margin-right: 1.5rem}
+.radio{ cursor: pointer}
+
+.submitting{ border-top: 1px solid #ced4da; margin: 1.5rem 0 0 0; padding: 1.5rem 0 1rem 0}
+.submitting .registration-but{ background: #5b4a9a; border-radius: 3px; border: 1px solid #4a3a85; color: #FFF; padding: 0.2rem 0.8rem; font-size: 1.1rem !important}
+
+.institution-form{ display: none}
+
+.reg{ display: none}
+.confirmation-message{ _display: none; padding: 3rem 1rem; text-align: center}
+.confirmation-message>div:first-child{ margin-bottom: 1.5rem}
+.confirmation-message>div:first-child>span{ display: inline-block; border: 3px solid #8bc643; border-radius: 50%; padding: 1rem; width: 90px; height: 90px}
+.confirmation-message>div:first-child>span>i{ font-size: 3rem; color: #8bc643}
+.confirmation-message h4{ margin-bottom: 1rem}
+.confirmation-message .count-down{ color: #FFF; font-size: 19px; border: 1px solid #0082c6; display: inline-block; border-radius: 50%; padding: 7px; background: #0082c6; width: 40px; height: 40px}
+
+.submitting .text-left{ margin-top: 7px; display: inline-block}
+.login{ margin-top: 5px; display: inline-block; margin-right: 20px; color: #b6b6b6}
+.login a{ margin-right: 20px; color: #5b4a9a !important; font-size: 1.1rem}
+
+.nid-status{ position: absolute; right: 25px; top: 10px}
+.nid-status-active{ color: #49b500}
+.nid-status-inactive{ color: #b50000}
+.nid-status-active-bg{ background-color: #49b50050 !important}
+.nid-status-inactive-bg{ background-color: #b5000050 !important}
